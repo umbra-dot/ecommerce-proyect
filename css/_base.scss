@@ -1,0 +1,16 @@
+$width: 100%;
+$width_1: 100px;
+$colorWhite: #fff;
+$boxSizing: border-box;
+$pX: 15px;
+$c: center;
+
+%flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin darkmode {
+    color: $colorWhite;
+    background-color: #181717;
+}
