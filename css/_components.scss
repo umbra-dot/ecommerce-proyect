@@ -27,6 +27,11 @@
         margin: 0;
     }
 
+    .main__menu {
+        width: $width;
+        box-shadow: none;
+    }
+
     .main__cart {
         width: $width;
         box-shadow: none;
@@ -54,7 +59,12 @@
     .main__cart {
         @include darkmode;
     }
+
+    .main__menu {
+        @include darkmode;        
+    }
 }
+
 @media (max-width: 820px) {
     .header {
         padding: $pX;

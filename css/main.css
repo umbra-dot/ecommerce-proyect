@@ -254,6 +254,10 @@ body {
     padding: 0 10px;
     margin: 0;
   }
+  .main__menu {
+    width: 100%;
+    box-shadow: none;
+  }
   .main__cart {
     width: 100%;
     box-shadow: none;
@@ -272,11 +276,15 @@ body {
 @media (prefers-color-scheme: dark) {
   .main {
     color: #fff;
-    background-color: #181717;
+    background-color: #413e3e;
   }
   .main__cart {
     color: #fff;
-    background-color: #181717;
+    background-color: #413e3e;
+  }
+  .main__menu {
+    color: #fff;
+    background-color: #413e3e;
   }
 }
 @media (max-width: 820px) {
